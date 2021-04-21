@@ -1,0 +1,34 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    padding: 1em 0em;  
+    font-weight: 400;
+}
+
+nav ul a, nav ul a:visited  {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 1024px) {
+    nav ul a {
+        font-size: 2em;
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    nav ul a li p:first-child:hover {
+        color: #3546fe;
+        transform: translateY(2px);
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    nav ul a li p:last-child:hover {
+        color: #3546fe;
+        transform: translateY(2px);
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+}

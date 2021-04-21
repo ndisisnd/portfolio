@@ -1,0 +1,139 @@
+.txt-nav {
+    font-size: 1em;
+}
+
+.txt-hero-title {
+    font-size: 2.25rem;
+    line-height: 125%;
+}
+
+.txt-hero-subtitle {
+    font-size: 1em;
+    line-height: 120%;
+    padding-top: 0.5em;
+    letter-spacing: 0.5px;
+}
+
+.txt-hero-cv {
+    padding-bottom: 0.5em;
+}
+
+.txt-hero-current {
+    padding-bottom: 0.5em;
+}
+
+.link-cv, .link-cv:visited {
+    text-decoration: none;
+    color: #292929;
+    font-weight: 600;
+}
+
+.work-title {
+    padding-top: 4em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.container-work {
+    padding-top: 0em;
+}
+
+.txt-proj-type {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.txt-proj-title {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.txt-proj-desc {
+    line-height: 1.5em;
+}
+
+.container-proj {
+    padding: 2em 0em;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-hero {
+        padding-top: 8em;
+        padding-bottom: 18em;
+    }
+
+    .container-work {
+        padding-bottom: 30em;
+    }
+
+    .txt-hero-title {
+        transition: all 0.885s ease;
+        font-size: 5em;
+    }
+
+    .txt-hero-subtitle {
+        font-size: 2em;
+        padding-bottom: 1.5em;
+    }
+
+    .txt-hero-cv, .txt-hero-current {
+        font-size: 1.5em;
+    }
+
+    .txt-hero-cv a, .txt-hero-current a {
+        transition: all 0.885s ease;
+    }
+
+    .txt-hero-title:hover {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+        color: #3546fe;
+    }
+
+    .txt-hero-cv a:hover, .txt-hero-current a:hover {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+        color: #3546fe;
+        font-size: 30px;
+    }
+
+    .container-work {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 7%;
+    }
+
+    img {
+        padding-bottom: 1em;
+    }
+
+    .txt-proj-title {
+        font-size: 2.5em;
+    }
+
+    .txt-proj-desc {
+        font-size: 1.5em;
+    }
+
+    .container-proj {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    .container-proj:hover {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+        box-shadow: 9px 10px 47px 3px rgba(0,0,0,0.19);
+        -webkit-box-shadow: 9px 10px 47px 3px rgba(0,0,0,0.19);
+        -moz-box-shadow: 9px 10px 47px 3px rgba(0,0,0,0.19);
+        padding: 1.5em;
+        border-radius: 4px;
+        margin-top: 1em;
+        color: #3546fe;
+    }
+
+    .container-work div {
+        cursor: pointer;
+    }
+    
+}

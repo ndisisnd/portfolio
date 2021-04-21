@@ -1,0 +1,72 @@
+.container-about h1 {
+    font-size: 2.5em;
+    line-height: 150%;
+    padding-bottom: 1em;
+}
+
+.container-about h2 {
+    font-size: 1.75em;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 1em;
+}
+
+.container-about p {
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+.container-about h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+.container-about a, .container-about a:visited  {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 1024px) {
+    .container-about {
+        padding-top: 3em;
+    }
+
+    .container-about h1 {
+        font-size: 5em;
+    }
+
+    .container-about h2 {
+        font-size: 2.25em;
+    }
+
+    .container-about h3 {
+        font-size: 2em;
+    }
+
+    .container-about p {
+        font-size: 1.5em;
+    }
+
+    .container-about a {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    .container-about a:hover {
+        color: #3546fe;
+        font-size: 1.25em;
+    }
+
+    #emoji {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    #emoji:hover {
+        cursor: pointer;
+        transform: rotateZ(2deg)
+    }
+
+    
+
+}

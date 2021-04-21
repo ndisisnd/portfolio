@@ -1,0 +1,46 @@
+.container-construction p {
+    text-align: center;
+    line-height: 150%;
+}
+
+.container-construction h1 {
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.coming-soon-link {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 1024px) { 
+
+    .container-construction h1 {
+        font-size: 4em;
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    .container-construction p {
+        font-size: 2em;;
+    }
+
+    .container-construction h1:hover {
+        padding: 1em;
+        color: #3546fe;
+    }
+
+    .coming-soon-link {
+        transition: all 0.885s cubic-bezier(.91,.03,.46,.67);
+    }
+
+    .coming-soon-link:hover {
+        color: #3546fe;
+        padding: 0em 2em;
+        font-size: 1.25em;
+    }
+    
+
+}

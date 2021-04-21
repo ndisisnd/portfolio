@@ -1,0 +1,158 @@
+.store-1 p:first-child,
+.store-2 p:first-child,
+.store-3 p:first-child,
+.store-4 p:first-child,
+.store-5 p:first-child,
+.store-6 p:first-child,
+.store-7 p:first-child,
+.store-8 p:first-child,
+.store-9 p:first-child,
+.store-10 p:first-child,
+.store-11 p:first-child,
+.store-post-launch p:first-child {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.store-1 h1,
+.store-2 h1,
+.store-3 h1,
+.store-4 h1,
+.store-5 h1,
+.store-6 h1,
+.store-7 h1,
+.store-8 h1,
+.store-9 h1,
+.store-10 h1,
+.store-11 h1,
+.store-post-launch h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.store-1 p,
+.store-2 p,
+.store-3 p,
+.store-4 p,
+.store-5 p,
+.store-6 p,
+.store-7 p,
+.store-8 p,
+.store-9 p,
+.store-10 p,
+.store-11 p,
+.store-post-launch p {
+    line-height: 150%;
+    margin-bottom: 1em;
+}
+
+.img-1 p,
+.img-2 p,
+.img-3 p,
+.img-4 p {
+    margin-bottom: 1em;
+    opacity: 70%;
+    font-weight: 600;
+}
+
+.img-1 img,
+.img-2 img,
+.img-3 img,
+.img-4 img {
+    margin-bottom: 0.5em;
+}
+
+div ul li {
+    line-height: 150%;
+    font-weight: 400;
+    padding-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .store-1 {
+        margin-top: 4em;;
+    }
+
+    div ul {
+        grid-column: 2 / 2;
+    }
+
+    .store-1,
+    .store-2,
+    .store-3,
+    .store-4,
+    .store-5,
+    .store-6,
+    .store-7,
+    .store-8,
+    .store-9,
+    .store-10,
+    .store-11,
+    .store-post-launch {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2em;
+    }
+
+    .store-1 p:first-child,
+    .store-2 p:first-child,
+    .store-3 p:first-child,
+    .store-4 p:first-child,
+    .store-5 p:first-child,
+    .store-6 p:first-child,
+    .store-7 p:first-child,
+    .store-8 p:first-child,
+    .store-9 p:first-child,
+    .store-10 p:first-child,
+    .store-11 p:first-child,
+    .store-post-launch p:first-child {
+        grid-column: 1 / 1;
+    }
+
+    .store-1 p,
+    .store-2 p,
+    .store-3 p,
+    .store-4 p,
+    .store-5 p,
+    .store-6 p,
+    .store-7 p,
+    .store-8 p,
+    .store-9 p,
+    .store-10 p,
+    .store-11 p,
+    .store-post-launch p {
+        grid-column: 2 / 2;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.25em;
+        margin-bottom: 2em;
+    }
+
+    .img-1 p,
+    .img-2 p,
+    .img-3 p,
+    .img-4 p {
+        grid-column: 1 / 3;
+    }
+
+    .img-1 img:last-child {
+        grid-column: 1 / 3;
+    }
+}
+
+/* .store-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.store-1 p:first-child {
+    grid-column: 1 / 1;
+} */

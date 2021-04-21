@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epicsoft Asia Admin</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/factory.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/proj-nav.css">
+    <link rel="stylesheet" href="/css/epicsoft-admin.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <a href="./index.html">
+                <li class="txt-nav">
+                    <p>Andy Chan</p>
+                </li>
+            </a>
+            <a href="./about.html">
+                <li class="txt-nav">
+                    <p>About</p>
+                </li>
+            </a>
+        </ul>
+    </nav>
+
+    <div class="container-page">
+        <div class="container-hero">
+            <p>2021 &#183 Research &#183 UI &#183 UX</p>
+            <h1>Epicsoft Asia: OhMai's E-commerce Admin Platform</h1>
+            <h2>Designing a visual UI to manage inventory, orders, customers, and more</h2>
+            <img width=100% src="/assets/epicsoft-admin/admin.png" alt="">
+        </div>
+        <div class="container-results">
+            <div class="result-1">
+                <p>Responsibilities</p>
+                <p>User Research<br>Visual Design<br>Experience Design</p>
+            </div>
+            <div class="result-2">
+                <p>Team</p>
+                <p>Project Manager - Eugene Seow<br>
+                    Engineering - Matthew Quek, Haskel Chua, Alfie<br>
+                </p>
+            </div>
+            <div class="result-3">
+                <p>Duration</p>
+                <p>1 month (excluding implementation)</p>
+            </div>
+        </div>
+        <div class="container-content">
+            <div class="epicsoft-intro">
+                <h1>A GUI for Inventory Management</h1>
+                <p>After shipping the <a>consumer-facing designs for OhMai,</a> the OhMai
+                   platform was only 50% done. The age of directly injecting orders into SQL
+                   or cleaning up payment gateway data in MongoDB is over. The business development
+                   team at Epicsoft Asia needed something that was more efficent to manage than
+                   their previous e-commerce endeavours.</p>
+                   <br>
+                <p>I was part of this ambitious project to design, test, and ship complete designs
+                   within a month.
+                </p>
+                <br>
+                <p>To comply with my non-disclosure agreement, I have omitted and obfuscated confidential
+                   in this case study. This includes data in user interfaces, diagrams and charts. All information
+                   in this case study is my own and does not necessarily reflect the views of OhMai, Epicsoft Asia,
+                   GCL Asia and its related subsidiaries.
+                </p>
+            </div>
+            <div class="epicsoft-context">
+                <p>The Challenge</p>
+                <h1>Building an internal enterprise platform in 1 month</h1>
+                <p>Our goal for this project was to make e-commerce make sense. 
+                   The premise was simple: anyone at Epicsoft can add a product, fulfill an order,
+                   and refund customers without scratching their heads and reading a manual one too
+                   many times. 
+                </p>
+                <br>
+                <p>The ambition was to build something that was beyond what other e-commerce giants
+                   have already figured out. We're not reinventing the wheel, but rather, innovating
+                   on the best practices and information architecture on the shoulders of giants.
+                </p>
+                <br>
+                <br>
+                <h2>My Role</h2>
+                <p>As the solo designer on the team, I led the project and collaborated with three engineers,
+                   one project manager, and testing with two of Epicsoft's designated OhMai admins.
+                </p>
+                <br>
+                <p>This platform is currently being implemented by engineers and will be shipped by mid-May 2021.</p>
+            </div>
+        </div>
+        <div class="epicsoft-content-1">
+            <p>Classification in E-commerce</p>
+            <h1>Making sense of prior knowledge</h1>
+            <p>As a stranger to the e-commerce world, I had to familiarise myself quickly with how
+               the inventory system works in e-commerce. <br>
+               <br>This means everything from charge IDs to HS Code in shipping.
+               I gathered the main stakeholders in Epicsoft Asia and other people who previously collaborated on 
+               e-commerce projects in the past and jotted down their thoughts. I then dived into their numerous Excel sheets,
+               their data nomenclature in SQL and even the payment gateway API documentation. I then organised these notes
+               into a simple architecture on what goes into a product, which gave me a starting point for crafting questions for further user research.
+               <br><br>
+            </p>
+            <p>Based on this, I could also reasonably create a simple flowchart of what sort of functions our admins need.</p>
+        </div>
+        <div>
+            <p class="caption">What makes up a product in E-commerce</p>
+            <img width="100%" src="/assets/epicsoft-admin/product makeup.png" alt="" srcset="">
+        </div>
+        <div class="epicsoft-content-2">
+            <h1>The subsequent user research revealed two glaring points for improvement.</h1>
+            <ol>
+                <li>
+                    <p>
+                        Epicsoft Asia previously used many different variations of e-commerce backend dashboards
+                        that are well-established, but it was hard to stick to any of them. These dashboards mostly
+                        included irrelevant functions that they didn't need, which were all part of the overall UX flow
+                        that rendered them having to click more just to get to the page they want. This created a lot of
+                        cognitive fatigue.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Not everyone wants to see the SKU all the time, but there is information that they would want to
+                        keep shown when they log in. Most of the team are using Notion for sprint planning and data organisation
+                        and they loved how Notion structured their UX.
+                    </p>
+                </li>
+            </ol>
+        </div>
+        <div class="epicsoft-content-3">
+            <h1>The Solution</h1>
+            <div class="sol-1">
+                <h2>Make functions make sense</h2>
+                <p>Nobody wanted to guess what an icon means or a button does. I made sure functions are explicit and
+                    ensured that it was a WYSIWYG (what you see is what you get) platform.
+                </p>
+            </div>
+            <div class="sol-2">
+                <h2>Prioritising speed and overviews</h2>
+                <p>Everyone wanted to "see everything". Because of this, I focused a lot on ensuring that critical information 
+                    is always present above the fold. Using the journalism Inverted Pyramid for newswriting as inspiration,
+                    I broke down how a product is actually tagged and given detail in the way that makes most sense to the admins.
+                </p>
+            </div>
+        </div>
+        <div>
+            <p class="caption">Functions drawn from Jobs that the admins wanted to do</p>
+            <img width="100%" src="/assets/epicsoft-admin/functions.png" alt="" srcset="">
+        </div>
+        <div class="epicsoft-content-4">
+            <h1>Unexpected Challenges</h1>
+            <div class="cha-1">
+                <h2>Non-adherence to the Design System</h2>
+                <p>The previous design system that I used for the OhMai consumer-facing platform had to be adapted,
+                    and I created a separate design system set just for backend use. This was an oversight on my end: I
+                    treated the adminstrative dashboards as a product bundled with OhMai, but rather, I should be treating it
+                    as a separate product on its own.
+                </p>
+            </div>
+            <div class="cha-2">
+                <h2>Engineering Constraints</h2>
+                <p>With such a short deadline, I had to constantly adapt the design to ensure that the engineers
+                    could deliver on time. This was coupled with some communication difficulty with an outsourced developer
+                    from Jakarta.
+                </p>
+            </div>
+        </div>
+        <div class="epicsoft-img">
+            <div>
+                <caption>Adding attributes to create various product variants.</caption>
+                <img width=100% src="/assets/epicsoft-admin/attributes.png" alt="" srcset="">
+            </div>
+            <div>
+                <caption>Managing orders to fulfill, cancel, and have an overview.</caption>
+                <img width=100% src="/assets/epicsoft-admin/orders.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="epicsoft-post-launch">
+            <h1>Post-Launch Reflections</h1>
+            <p>After shipping this platform to the engineers, I understood why UI/UX designers need to be extremely perceptive,
+               and that at times you have to take the risk with certain design patterns. General feedback after some user tests
+               were great, and all the admins found a 70% reduction in the amount of time they spent adding a product as compared
+               to other brands. It was also aesthetically pleasing and consistent with the main theme.
+            </p>
+            <br>
+            <p>I learnt that it was extremely important to test enterprise software with the people that use it most. It was also
+                a good choice to lay out the information architecture early so that engineers can give feedback on what 
+                constraints there are. Early feedback on potential technical challenges allowed me to make changes to the design quickly
+                so as to stick to the previously set deadline of one month.
+            </p>
+        </div>
+        <div class="proj-nav">
+            <div onclick="location.href='./index.html'" class="nav-prev">
+                <p>Next <i class="fas fa-chevron-left"></i></p>
+                <h1>Back to Home</h1>
+            </div>
+            <div onclick="location.href='./epicsoft-store.html'" class="nav-next">
+                <p>Next <i class="fas fa-chevron-right"></i></p>
+                <h1>Epicsoft Asia Storefront</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/a78515c90b.js" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

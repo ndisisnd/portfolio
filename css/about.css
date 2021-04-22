@@ -1,5 +1,5 @@
 .container-about {
-    margin-bottom: 4em;  
+    padding-bottom: 4em;  
 }
 
 .container-about h1 {
@@ -35,6 +35,7 @@
 @media screen and (min-width: 1024px) {
     .container-about {
         padding-top: 3em;
+        padding-bottom: 8em;
     }
 
     .container-about h1 {
